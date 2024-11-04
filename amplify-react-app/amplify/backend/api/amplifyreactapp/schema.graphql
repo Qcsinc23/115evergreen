@@ -1,0 +1,23 @@
+type Document @model @auth(rules: [{ allow: owner }]) {
+  id: ID!
+  s3Key: String!
+  owner: String
+  createdAt: AWSDateTime!
+  updatedAt: AWSDateTime!
+}
+
+type FormTemplate @model @auth(rules: [{ allow: owner }]) {
+  id: ID!
+  documentID: ID!
+  fields: AWSJSON!
+  createdAt: AWSDateTime!
+  updatedAt: AWSDateTime!
+}
+
+type FormSubmission @model @auth(rules: [{ allow: owner }]) {
+  id: ID!
+  formTemplateID: ID!
+  responses: AWSJSON!
+  createdAt: AWSDateTime!
+  updatedAt: AWSDateTime!
+}

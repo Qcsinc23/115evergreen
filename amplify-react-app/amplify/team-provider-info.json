@@ -1,0 +1,32 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-amplifyreactapp-dev-190034-authRole",
+      "UnauthRoleArn": "arn:aws:iam::463470940272:role/amplify-amplifyreactapp-dev-190034-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::463470940272:role/amplify-amplifyreactapp-dev-190034-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-amplifyreactapp-dev-190034-deployment",
+      "UnauthRoleName": "amplify-amplifyreactapp-dev-190034-unauthRole",
+      "StackName": "amplify-amplifyreactapp-dev-190034",
+      "StackId": "arn:aws:cloudformation:us-east-1:463470940272:stack/amplify-amplifyreactapp-dev-190034/12869890-9adf-11ef-a8d3-0affc6b02b4d",
+      "AmplifyAppId": "d2bu3n1izw20ds",
+      "AuthTriggerTemplateURL": "https://s3.amazonaws.com/amplify-amplifyreactapp-dev-190034-deployment/amplify-cfn-templates/auth/auth-trigger-cloudformation-template.json"
+    },
+    "categories": {
+      "auth": {
+        "amplifyreactapp": {},
+        "amplifyreactappf4295d10": {}
+      },
+      "api": {
+        "amplifyreactapp": {}
+      },
+      "function": {
+        "amplifyreactappf4295d10DefineAuthChallenge": {},
+        "amplifyreactappf4295d10CreateAuthChallenge": {},
+        "amplifyreactappf4295d10VerifyAuthChallengeResponse": {
+          "RECAPTCHASECRET": "5564666648896"
+        }
+      }
+    }
+  }
+}

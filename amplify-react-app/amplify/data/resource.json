@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "appId": "amplifyreactapp",
+  "dataSource": {
+    "type": "AMAZON_DYNAMODB"
+  },
+  "schema": {
+    "models": {
+      "Todo": {
+        "attributes": {
+          "id": {
+            "type": "ID",
+            "isRequired": true,
+            "isPrimaryKey": true
+          },
+          "name": {
+            "type": "String",
+            "isRequired": true
+          },
+          "description": {
+            "type": "String"
+          },
+          "completed": {
+            "type": "Boolean",
+            "isRequired": true
+          }
+        }
+      }
+    }
+  }
+}
